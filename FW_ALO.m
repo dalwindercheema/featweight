@@ -1,16 +1,11 @@
 % Source Code for Feature Weighting with Ant Lion optimization (Version 1.0)
 %
-% This aims to search for the feature weights with the optimal of closet
-% nearest neighbor parameter (i.e. k) simultaneously.
+% This aims to search for the feature weights with the optimal value of nearest 
+% neighbor parameter (i.e. k) simultaneously.
 %
 % This code is inspired from the original Ant Lion Optimization algorithm. 
 % However, this code is modified for feature weighting as well as an error
-% has been removed from the original code. The details of error as given
-% below:
-% The variable "sorted_antlion_fitness" is used to create "double_fitness",
-% but this variable never updated in code. Therefore, values of
-% "sorted_antlion_fitness" is used from iteration 1 "only" throughout all 
-% iterations causing convergence problems.
+% has been removed from the original code.
 
 % Input Parameters: 
 % train:    training data where rows represent instances and columns 
