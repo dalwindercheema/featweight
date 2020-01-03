@@ -1,4 +1,4 @@
-# Source Code for Feature Weighting with Ant Lion optimization
+# MATLAB Source Code for Feature Weighting with Ant Lion optimization
 
 This aims to search for the feature weights with the optimal value of nearest neighbor parameter (i.e. k) simultaneously.
 
