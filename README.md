@@ -8,3 +8,5 @@ The feature weighting with ALO is implemented in FW_ALO.m file. Check this file 
 
 Please cite the code by referring to this paper:
 Dalwinder Singh and Birmohan Singh, "Hybridization of feature selection and feature weighting for high dimensional data", Applied Intelligence, Vol., 49, No. 4, pp: 1580-1596, 2019
+
+[![View Feature Weighting on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://in.mathworks.com/matlabcentral/fileexchange/73821-feature-weighting)
