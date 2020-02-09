@@ -24,7 +24,7 @@
 % ConCurve:   A vector of length equal to Max_iter which shows the
 %             convergence of the algorithm
 %
-% Please cite the code by referring to this paper:
+% If you use the code, please cite the paper:
 %
 % Dalwinder Singh and Birmohan Singh, "Hybridization of feature selection 
 % and feature weighting for high dimensional data", Applied Intelligence,
