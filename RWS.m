@@ -1,11 +1,12 @@
 function choice = RWS(weights)
-  accumulation = cumsum(weights);
-  p = rand() * accumulation(end);
-  chosen_index = -1;
-  for index = 1 : length(accumulation)
+weights=1./weights;
+accumulation = cumsum(weights);
+p = rand() * accumulation(end);
+chosen_index = -1;
+for index = 1 : length(accumulation)
     if (accumulation(index) > p)
-      chosen_index = index;
-      break;
+        chosen_index = index;
+        break;
     end
-  end
-  choice = chosen_index;
+end
+choice = chosen_index;
