@@ -3,10 +3,6 @@
 % This aims to search for the feature weights with the optimal value of nearest 
 % neighbor parameter (i.e. k) simultaneously.
 %
-% This code is inspired from the original Ant Lion Optimization algorithm. 
-% However, this code is modified for feature weighting as well as an error
-% has been removed from the original code.
-
 % Input Parameters: 
 % train:    training data where rows represent instances and columns 
 %           represents  features
@@ -14,9 +10,7 @@
 % Popu:     Total Population of antlions and ants
 % Max_iter: Maximum Iterations to search for solutions
 %
-%
-% Output Parameters: 
-%
+% Output Parameters:
 % GlobalBest: A structure with the information of best fitness value and
 %             best solution
 %             GlobalBest.Cost = Best Fitness
@@ -29,7 +23,6 @@
 % Dalwinder Singh and Birmohan Singh, "Hybridization of feature selection 
 % and feature weighting for high dimensional data", Applied Intelligence,
 % Vol., 49, No. 4, pp: 1580-1596, 2019
-% 
 
 function [GlobalBest,ConCurve]=FW_ALO(train,label,Popu,Max_iter)
 N=Popu;
